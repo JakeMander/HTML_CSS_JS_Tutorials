@@ -64,7 +64,8 @@ for (var i = 0; i < concatArray.length; i++)
 }
 
 //  Associative Arrays Are NOT Supported In JavaScript. However, Named Array Syntax Can Still be Used To Produce An
-//  Object. This Will Function In The Same Manner As An Associative Array.
+//  Object. This Will Function In The Same Manner As An Associative Array. As A General Rule, Opt To Create Objects
+//  Instead.
 
 var creature1 = [];
 creature1["Species"] = "Lion";
