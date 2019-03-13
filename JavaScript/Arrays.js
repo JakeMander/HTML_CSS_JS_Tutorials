@@ -53,4 +53,25 @@ for (var i = 0; i < 3; i++)
 
 document.write("<p>Number of Elements In Careers Array: " + careers.length+ "</p>");
 
-//  The Concat Function Can Be Used To Concatenate The Values Contained In Two Seperate Arrays Into A Single
+//  The Concat Function Can Be Used To Concatenate The Values Contained In Two Separate Arrays Into One.
+//  Concat Creates A Brand New Array, And Can Merge Arrays Of Different Types.
+
+var concatArray =  careers.concat(ages);
+
+for (var i = 0; i < concatArray.length; i++)
+{
+    document.write("<p> Concatenated Array Value " + concatArray[i] + "</p>");
+}
+
+//  Associative Arrays Are NOT Supported In JavaScript. However, Named Array Syntax Can Still be Used To Produce An
+//  Object. This Will Function In The Same Manner As An Associative Array.
+
+var creature1 = [];
+creature1["Species"] = "Lion";
+creature1["Diet"] = "Carnivore";
+creature1["TagID"] = 1834228;
+
+document.write("<p>Animal Species: " + creature1.Species + "</p>");
+document.write("<p>Diet: " + creature1.Diet + "</p>");
+document.write("<p>TagID: " + creature1.TagID + "</p>");
+
